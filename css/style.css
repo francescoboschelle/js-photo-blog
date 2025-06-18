@@ -67,6 +67,7 @@ img {
   position: relative;
   background-color: var(--bg-main);
   padding: 1rem;
+  cursor: pointer;
 }
 
 .mb-1 {
@@ -79,6 +80,10 @@ img {
 
 .mt-3 {
   margin-top: 3rem;
+}
+
+.d-none {
+  display: none;
 }
 
 /* #endregion global */
@@ -129,6 +134,11 @@ main {
     width: 100vw;
     background-color: var(--bg-overlay);
     align-content: center;
+
+    .card {
+      cursor: default;
+      box-shadow: 0 0 20px white;
+    }
   }
 }
 
