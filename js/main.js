@@ -16,7 +16,8 @@ fetch(endpoint)
             <div class="card" id="post-${index}">
               <img src="./img/pin.svg" alt="Pin" class="pin" />
               <img src="${post.url}" alt="Post Image" class="mb-1" />
-              <p>${post.title}</p>
+              <p>${post.date}</p>
+              <h2>${post.title}</h2>
             </div>
           </div>`;
     });

@@ -68,6 +68,12 @@ img {
   background-color: var(--bg-main);
   padding: 1rem;
   cursor: pointer;
+
+  transition: all 0.25s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.1) rotate(0.025turn);
 }
 
 .mb-1 {
@@ -138,6 +144,10 @@ main {
     .card {
       cursor: default;
       box-shadow: 0 0 20px white;
+    }
+
+    .card:hover {
+      transform: none;
     }
   }
 }
